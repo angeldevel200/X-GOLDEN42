@@ -1,4 +1,5 @@
 pkg install git golang -y
 go install github.com/tomnomnom/waybackurls@latest
+echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc source ~/.bashrc
 echo example.com | waybackurls
 echo example.com | waybackurls > output.txt
