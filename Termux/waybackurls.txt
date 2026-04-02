@@ -1,0 +1,4 @@
+pkg install git golang -y
+go install github.com/tomnomnom/waybackurls@latest
+echo example.com | waybackurls
+echo example.com | waybackurls > output.txt
